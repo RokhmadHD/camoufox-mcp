@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "camoufox": {
+      "command": "/home/tensanq/Desktop/camoufox-mcp/.venv/bin/python",
+      "args": ["-m", "camoufox_mcp"],
+      "env": {
+        "CAMOUFOX_HEADLESS": "true",
+        "CAMOUFOX_LOG_LEVEL": "INFO"
+      },
+      "timeout": 60000
+    }
+  }
+}
